@@ -1,4 +1,4 @@
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, Query, WebSocket, WebSocketDisconnect
 from fastapi.responses import HTMLResponse
 
 
@@ -45,6 +45,13 @@ HTML_STRING = """
 async def get():
     return HTMLResponse(HTML_STRING)
 
+
+
+
+@app.get("/poll")
+async def poll(payload: str = Query(default="")):
+    """HTTP polling benchmark endpoint with same semantics as the websocket path."""
+    return {"reversed_data": payload[::-1], "status": "ok"}
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):

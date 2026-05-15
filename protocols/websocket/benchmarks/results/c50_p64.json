@@ -1,0 +1,34 @@
+{
+  "timestamp": 1778863612,
+  "base_url": "http://127.0.0.1:8000",
+  "results": [
+    {
+      "transport": "websocket",
+      "clients": 50,
+      "messages_per_client": 20,
+      "payload_size": 64,
+      "total_messages": 1000,
+      "success_messages": 1000,
+      "duration_seconds": 0.2655,
+      "throughput_mps": 3766.71,
+      "latency_p50_ms": 4.76,
+      "latency_p95_ms": 6.212,
+      "latency_p99_ms": 7.108,
+      "latency_mean_ms": 4.9
+    },
+    {
+      "transport": "http_poll",
+      "clients": 50,
+      "messages_per_client": 20,
+      "payload_size": 64,
+      "total_messages": 1000,
+      "success_messages": 1000,
+      "duration_seconds": 1.9586,
+      "throughput_mps": 510.56,
+      "latency_p50_ms": 77.851,
+      "latency_p95_ms": 130.29,
+      "latency_p99_ms": 234.359,
+      "latency_mean_ms": 86.661
+    }
+  ]
+}
