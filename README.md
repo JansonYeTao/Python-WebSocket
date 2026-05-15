@@ -194,3 +194,10 @@ Tip: run multiple passes for your blog:
 python benchmarks/run_benchmark.py --clients 10 --messages 50 --payload-size 64 --transport both --output benchmarks/results/c10_p64.json
 python benchmarks/run_benchmark.py --clients 100 --messages 50 --payload-size 1024 --transport both --output benchmarks/results/c100_p1024.json
 ```
+
+
+## 9) Detailed tradeoff costs
+
+For a focused breakdown of what you *pay* when choosing WebSocket (operational, scaling, backpressure, auth, observability), see:
+
+- `benchmarks/TRADEOFFS.md`
