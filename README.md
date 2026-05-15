@@ -1,6 +1,6 @@
-# Python WebSocket Tutorial Repo
+# Network Protocol Tutorial Repo
 
-A beginner-friendly, practical WebSocket tutorial in Python with:
+A beginner-friendly, practical network protocol tutorial in Python with:
 
 - a **FastAPI WebSocket server**
 - a **browser chat page**
@@ -10,6 +10,18 @@ A beginner-friendly, practical WebSocket tutorial in Python with:
 If you want a cool repo to link on your personal blog, this project is built to be easy to clone, run, and explain.
 
 ---
+
+## 0) Why this repo name
+
+This repository now frames WebSocket as part of a broader **network protocol learning track**:
+
+- HTTP request/response baseline
+- HTTP Upgrade to WebSocket
+- WebSocket frame parsing (from scratch)
+- transport tradeoffs (WebSocket vs HTTP polling)
+
+So the focus is not only application code, but protocol-level thinking.
+
 
 ## 1) What you’ll learn
 
