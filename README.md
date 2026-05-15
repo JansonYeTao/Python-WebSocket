@@ -201,3 +201,21 @@ python benchmarks/run_benchmark.py --clients 100 --messages 50 --payload-size 10
 For a focused breakdown of what you *pay* when choosing WebSocket (operational, scaling, backpressure, auth, observability), see:
 
 - `benchmarks/TRADEOFFS.md`
+
+
+## 10) From-scratch WebSocket track (mental model)
+
+For deeper understanding, start with the educational raw-socket implementation:
+
+- `scratch_ws/README.md`
+- `scratch_ws/handshake_server.py`
+- `scratch_ws/frame_echo_server.py`
+- `scratch_ws/helpers.py`
+
+This track helps you learn:
+1. TCP socket acceptance
+2. HTTP upgrade handshake (`101`)
+3. Frame parsing/unmasking
+4. Server text frame encoding
+
+Then compare with `server/listen.py` to see what frameworks abstract away.
