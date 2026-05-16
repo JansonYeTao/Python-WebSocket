@@ -23,6 +23,14 @@ This repository now frames WebSocket as part of a broader **network protocol lea
 So the focus is not only application code, but protocol-level thinking.
 
 
+
+
+## Protocol tracks
+
+- `protocols/README.md`
+- `protocols/http/README.md`
+- `protocols/websocket/`
+
 ## 1) What you’ll learn
 
 By the end, you’ll understand:
