@@ -235,3 +235,10 @@ This track helps you learn:
 4. Server text frame encoding
 
 Then compare with `protocols/websocket/server/listen.py` to see what frameworks abstract away.
+
+
+## 11) Protocol comparison guide
+
+For side-by-side comparison with examples (WebSocket vs HTTP, gRPC streaming, WebRTC), see:
+
+- `protocols/websocket/PROTOCOL_COMPARISON.md`
