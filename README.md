@@ -30,6 +30,7 @@ So the focus is not only application code, but protocol-level thinking.
 - `protocols/README.md`
 - `protocols/http/README.md`
 - `protocols/websocket/`
+- `protocols/grpc/README.md`
 
 ## 1) What you’ll learn
 
